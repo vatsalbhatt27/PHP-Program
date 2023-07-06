@@ -1,0 +1,29 @@
+<?php
+	$k=1;
+	$i=1;
+	do
+	{
+		$j=1;
+		do
+		{
+			echo$k,"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp";
+			$k++;
+			$j++;
+		}while($j<=5)
+			echo"<br>";
+		$i++;
+	}while($i<=2)	
+	$i=1;
+	do
+	{
+		$j=1;
+		do
+		{
+			echo$k,"&nbsp;&nbsp;&nbsp;";
+			$k++;
+			$j++;
+		}while($j<=5)
+			echo"<br>";
+		$i++;
+	}while($i<=3)
+?>

@@ -1,0 +1,25 @@
+<?php
+	$k=1;
+	$i=1;
+	while($i<=2)
+	{
+		for($j=1;$j<=5;$j++)
+		{
+			echo$k,"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp";
+			$k++;
+		}
+		echo"<br>";
+		$i++;
+	}
+	$i=1;
+	while($i<=3)
+	{
+		for($j=1;$j<=5;$j++)
+		{
+			echo$k,"&nbsp;&nbsp;&nbsp;";
+			$k++;
+		}
+		echo"<br>";
+		$i++;
+	}
+?>
